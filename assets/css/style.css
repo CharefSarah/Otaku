@@ -8,7 +8,7 @@ body {
 }
 
 .cover {
-    background-image: url("../img/b68d3c28baeb7f7190d7191fc49a5083.jpg") !important;
+    background-image: url("../img/cover.png") !important;
     background-size: cover !important;
     height: 650px;
     overflow-x: hidden !important;
