@@ -8,8 +8,7 @@
     <title> OTAKU | おたく</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -17,8 +16,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">OTAKU おたく</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -26,14 +24,13 @@
                     <a class="nav-link" href="#">Nouveautés</a>
                     <a class="nav-link" href="#">Mangathèque</a>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Editions
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="kana.html">Kana</a></li>
-                            <li><a class="dropdown-item" href="pika.html">Pika</a></li>
-                            <li><a class="dropdown-item" href="kurokawa.html">Kurokawa</a></li>
+                            <li><a class="dropdown-item" href="/views/kana.php">Kana</a></li>
+                            <li><a class="dropdown-item" href="/views/pika.php">Pika</a></li>
+                            <li><a class="dropdown-item" href="/views/kurokawa.php">Kurokawa</a></li>
                         </ul>
                     </li>
                     </ul>
@@ -52,14 +49,13 @@
     <div class="container-fluid p-0 fixed-bottom">
         <div class="row m-0 p-0">
             <footer class="footer  bg-dark ">
-                <p class=" text-white text-center  p-3"> Sarah Charef ©  2021 OTAKU おたく  </p>
+                <p class=" text-white text-center  p-3"> Sarah Charef © 2021 OTAKU おたく </p>
             </footer>
         </div>
     </div>
 
     <script src="" async defer></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
     </script>
 </body>
 

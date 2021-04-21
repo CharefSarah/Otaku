@@ -10,24 +10,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">OTAKU | おたく</a>
+        <!-- Faudra mettre une condition pour que la redirection change selon si on est dans une view ou pas, 
+        vu que le chemin dit ../ pour revenir 
+        sur la page d'acceuil ca plante si on le fait DEPUIS la page d'acceuil -->
+            <a class="navbar-brand" href="../index.php">OTAKU | おたく</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#">Menu</a>
                     <a class="nav-link" href="#">Nouveautés</a>
-                    <a class="nav-link" href="#">Actualités</a>
-                    <a class="nav-link" href="#">scans</a>
                     <a class="nav-link" href="#">Mangathèque</a>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -35,9 +34,9 @@
                             Editions
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">Kana</a></li>
-                            <li><a class="dropdown-item" href="#">Pika</a></li>
-                            <li><a class="dropdown-item" href="#">Kurokawa</a></li>
+                            <li><a class="dropdown-item" href="kana.php">Kana</a></li>
+                            <li><a class="dropdown-item" href="pika.php">Pika</a></li>
+                            <li><a class="dropdown-item" href="kurokawa.php">Kurokawa</a></li>
                         </ul>
                     </li>
                     </ul>
@@ -45,22 +44,3 @@
             </div>
         </div>
     </nav>
-    <a class="twitter-timeline" data-width="1200" data-theme="dark"
-        href="https://twitter.com/EditionsKana?ref_src=twsrc%5Etfw">Editions Kana actualités</a>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    <footer>
-        <div class="container-fluid p-0 fixed-bottom">
-            <div class="row m-0 p-0">
-                <footer class="footer  bg-dark ">
-                    <p class=" text-white text-center  p-3"> © OTAKU | おたく 2021 Sarah Charef </p>
-                </footer>
-            </div>
-        </div>
-
-        <script src="" async defer></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
-        </script>
-</body>
-
-</html>
