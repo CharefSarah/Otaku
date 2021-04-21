@@ -13,7 +13,7 @@
 <div class="container p-0">
     <div class="row">
         <div class="col-md-2 d-flex mx-auto">
-            <button type="button" class="btn btn-link"><a href="actuKurokawa.php">Actualité</a></button>
+            <button type="button" class="btn btn-link"><a href="kurokawaActu.php">Actualité</a></button>
             <div class="container-fluid p-0 fixed-bottom">
             </div>
         </div>

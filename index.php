@@ -15,7 +15,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">OTAKU おたく</a>
+            <a class="navbar-brand" href="index.html">OTAKU | おたく</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -31,6 +31,13 @@
                             <li><a class="dropdown-item" href="/views/kana.php">Kana</a></li>
                             <li><a class="dropdown-item" href="/views/pika.php">Pika</a></li>
                             <li><a class="dropdown-item" href="/views/kurokawa.php">Kurokawa</a></li>
+                            <li><a class="dropdown-item" href="/views/glenat.php">Glénat</a></li>
+                            <li><a class="dropdown-item" href="/views/kioon.php">Ki-oon</a></li>
+                            <li><a class="dropdown-item" href="/views/ankama.php">Ankama</a></li>
+                            <li><a class="dropdown-item" href="/views/kaze.php">Kazé</a></li>
+                            <li><a class="dropdown-item" href="/views/panini.php">Panini</a></li>
+                            <li><a class="dropdown-item" href="/views/tonkam.php">Tonkam</a></li>
+
                         </ul>
                     </li>
                     </ul>

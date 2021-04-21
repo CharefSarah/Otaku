@@ -37,6 +37,12 @@
                             <li><a class="dropdown-item" href="kana.php">Kana</a></li>
                             <li><a class="dropdown-item" href="pika.php">Pika</a></li>
                             <li><a class="dropdown-item" href="kurokawa.php">Kurokawa</a></li>
+                            <li><a class="dropdown-item" href="glenat.php">Glénat</a></li>
+                            <li><a class="dropdown-item" href="kioon.php">Ki-oon</a></li>
+                            <li><a class="dropdown-item" href="ankama.php">Ankama</a></li>
+                            <li><a class="dropdown-item" href="kaze.php">Kazé</a></li>
+                            <li><a class="dropdown-item" href="panini.php">Panini</a></li>
+                            <li><a class="dropdown-item" href="tonkam.php">Tonkam</a></li>
                         </ul>
                     </li>
                     </ul>
