@@ -25,3 +25,8 @@ body {
     height : 30px;
     width :auto;
 }
+
+.footerStd {
+ height : 65px;
+ font-size : 14px;
+}

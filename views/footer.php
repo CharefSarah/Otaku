@@ -1,4 +1,4 @@
-<div class="container-fluid p-0 fixed-bottom">
+<div class="container-fluid p-0 fixed-bottom footerStd">
     <div class="row m-0 p-0">
         <footer class="footer  bg-dark ">
             <p class=" text-white text-center  p-3"> Sarah Charef & William Touboul © 2021 OTAKU | おたく </p>
