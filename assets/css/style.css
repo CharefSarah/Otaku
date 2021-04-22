@@ -20,3 +20,8 @@ body {
     height: 150px;
     overflow-x: hidden !important;
 }
+
+.iconNavBar {
+    height : 30px;
+    width :auto;
+}

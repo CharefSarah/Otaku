@@ -28,16 +28,32 @@
                             Editions
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="/views/kana.php">Kana</a></li>
-                            <li><a class="dropdown-item" href="/views/pika.php">Pika</a></li>
-                            <li><a class="dropdown-item" href="/views/kurokawa.php">Kurokawa</a></li>
-                            <li><a class="dropdown-item" href="/views/glenat.php">Glénat</a></li>
-                            <li><a class="dropdown-item" href="/views/kioon.php">Ki-oon</a></li>
-                            <li><a class="dropdown-item" href="/views/ankama.php">Ankama</a></li>
-                            <li><a class="dropdown-item" href="/views/kaze.php">Kazé</a></li>
-                            <li><a class="dropdown-item" href="/views/panini.php">Panini</a></li>
-                            <li><a class="dropdown-item" href="/views/tonkam.php">Tonkam</a></li>
+                            <?php
+                            // Connection a la DB
+                            require 'model/connect.php';
+                            // Requete
+                            $sql = 'SELECT * FROM editor';
 
+                            try {
+                                // On envoi la requete 
+                                $statement = $pdo->query($sql);
+                                // Fetch pour tout recup
+                                $editorName = $statement->fetchAll(PDO::FETCH_ASSOC);
+
+                                // On verifie si le fetch nous renvoi quelque chose
+                                if ($editorName) {
+                                    // On ecrit chaque truc qu'on veut depuis le fetch
+                                    foreach ($editorName as $editorName) {
+                                        ?>
+                                           <li><a class="dropdown-item" href="<?php echo '/views/' . $editorName['link'] ?>"> <img class="iconNavBar" src="<?= $editorName['photo'] ?>"> <?=$editorName['Name']?> </a></li>
+
+                                        <?php
+                                    }
+                                }
+                            } catch (\PDOException $e) {
+                                die($e->getMessage());
+                            }
+                            ?>
                         </ul>
                     </li>
                     </ul>
