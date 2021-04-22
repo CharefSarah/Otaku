@@ -26,7 +26,7 @@
 <div class="container p-0">
     <div class="row">
         <div class="col-md-2 d-flex mx-auto">
-            <button type="button" class="btn btn-link"><a href="actuPika.php">Actualité</a></button>
+            <button type="button" class="btn btn-link"><a href="pikaActu.php">Actualité</a></button>
             <div class="container-fluid p-0 fixed-bottom">
             </div>
         </div>

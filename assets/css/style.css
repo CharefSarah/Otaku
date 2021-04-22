@@ -20,3 +20,17 @@ body {
     height: 150px;
     overflow-x: hidden !important;
 }
+
+.iconNavBar {
+    height : 30px !important;
+    width :auto;
+}
+
+.footerStd {
+ height : 65px;
+ font-size : 14px;
+}
+.dropdown-menu, .dropdown-item {
+    background-color: #212529 !important;
+    color: #fff !important;
+}
