@@ -26,11 +26,12 @@ body {
     width :auto;
 }
 
-.footerStd {
- height : 65px;
- font-size : 14px;
-}
 .dropdown-menu, .dropdown-item {
     background-color: #212529 !important;
     color: #fff !important;
+}
+.svg {
+    margin: 5px!important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
 }
