@@ -1,5 +1,5 @@
 <?php
-// Connection a la DB
+// Connexion a la DB
 require '../model/connect.php';
 // Requete
 $sql = 'SELECT * FROM editor';

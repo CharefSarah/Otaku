@@ -1,5 +1,5 @@
 <?php
-// Connection a la DB
+// Connexion a la DB
 require 'model/connect.php';
 // Requete
 $sql = 'SELECT * FROM editor';
@@ -9,7 +9,6 @@ try {
     $statement = $pdo->query($sql);
     // Fetch pour tout recup
     $editor = $statement->fetchAll(PDO::FETCH_ASSOC);
-
 
 ?>
 
