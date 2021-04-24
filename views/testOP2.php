@@ -1,7 +1,7 @@
 <?php include('header.php');
 
 try {
-    $queryOPAllCover = 'SELECT * FROM volume WHERE ID_Manga = 4';
+    $queryOPAllCover = 'SELECT * FROM volume WHERE ID_Manga = 9 ORDER BY releaseDate DESC';
     $getCovers = $pdo->query($queryOPAllCover);
     $covers = $getCovers->fetchAll(PDO::FETCH_ASSOC);
     // On verifie si le fetch nous renvoi quelque chose
