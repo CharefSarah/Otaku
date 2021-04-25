@@ -2,7 +2,8 @@
 // Variable $index pour determiner si on est dans l'index ou dans le header des autres views et pour adapté les liens en fonctions.
 $index = false;
 // Require du controller, le Require du model est dedans.
-require '../controllers/dropdownNavbarController.php';
+
+require '../../controllers/dropdownNavbarController.php';
 ?>
 <!DOCTYPE html>
 
@@ -15,13 +16,13 @@ require '../controllers/dropdownNavbarController.php';
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="../index.php">OTAKU | おたく</a>
+            <a class="navbar-brand" href="../../index.php">OTAKU | おたく</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -40,7 +41,7 @@ require '../controllers/dropdownNavbarController.php';
                             if ($editor) {
                                 foreach ($editor as $editor) {
                             ?>
-                                    <li><a class="dropdown-item" href="<?php echo '/views/' . $editor['link'] ?>"> <img class="iconNavBar" src="<?= $editor['photo'] ?>"> <?= $editor['Name'] ?> </a></li>
+                                    <li><a class="dropdown-item" href="<?php echo '/views/editors/' . $editor['link'] ?>"> <img class="iconNavBar" src="<?= '../' . $editor['photo'] ?>"> <?= $editor['Name'] ?> </a></li>
                             <?php }
                             } ?>
                         </ul>

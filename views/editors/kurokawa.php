@@ -1,5 +1,5 @@
 <!-- Include pour avoir le header et evité de devoir changer les liens partout -->
-<?php include('header.php') ?>
+<?php include('../header.php') ?>
 
 <div class="container p-0">
     <div class="row">
@@ -23,4 +23,4 @@
 
 <!-- La meme que pour le header, c'est au cas ou on mettrait des liens 
 et/ou des boutons dedans plus tard, ca evitera de devoir le changer a chaque page -->
-<?php include('footer.php') ?>
+<?php include('../footer.php') ?>

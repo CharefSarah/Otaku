@@ -42,7 +42,7 @@ require 'controllers/dropdownNavbarController.php';
                                 foreach ($editor as $editor) {
                             ?>
                                     <!-- Le lien avec l'image de l'editeur -->
-                                    <li><a class="dropdown-item" href="<?php echo '/views/' . $editor['link'] ?>"> <img class="iconNavBar" src="<?= $editor['photo'] ?>"> <?= $editor['Name'] ?> </a></li>
+                                    <li><a class="dropdown-item" href="<?php echo '/views/editors/' . $editor['link'] ?>"> <img class="iconNavBar" src="<?= $editor['photo'] ?>"> <?= $editor['Name'] ?> </a></li>
                             <?php }
                             } ?>
                         </ul>
