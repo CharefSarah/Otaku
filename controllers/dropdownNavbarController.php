@@ -4,7 +4,7 @@
 if($index == true) {
     $required = 'model/connect.php';
 } else {
-    $required = '../model/connect.php' ;
+    $required = '../../model/connect.php' ;
 }
 
 require $required;
