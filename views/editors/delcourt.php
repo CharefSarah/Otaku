@@ -20,6 +20,12 @@
     </div>
 </div>
 
+<div class="container p-0">
+    <div class="row">
+    
+    </div>
+</div>
+
 
 <!-- La meme que pour le header, c'est au cas ou on mettrait des liens 
 et/ou des boutons dedans plus tard, ca evitera de devoir le changer a chaque page -->
