@@ -36,6 +36,18 @@ body {
     margin-right: 10px !important;
    
 }
-.footer{
-    background: #212529!important;
+
+/* ------- Style des card pour les manga dans les pages des editeurs. ------- */
+/* -------- C'est pour testé faut le virer et le changer toute facon -------- */
+.cardMangaEditor {
+    width: 8rem;
+    height : 150px;
+    margin : 6px;
+}
+.cardMangaEditorTitle {
+    font-size:14px;
+}
+
+.cardMangaEditorText  {
+    font-size : 8px;
 }
