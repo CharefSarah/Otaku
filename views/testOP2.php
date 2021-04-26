@@ -10,11 +10,6 @@ try {
         foreach ($covers as $covers) {
 ?>
 
-            <a href="https://developer.mozilla.org/">
-                < <img style="width : 26%;margin : 10px;" src="<?= $covers['cover'] ?>">>
-            </a>
-
-
             <img style="width : 26%;margin : 10px;" src="<?= $covers['cover'] ?>">
 
 <?php
