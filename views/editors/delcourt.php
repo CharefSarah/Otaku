@@ -1,5 +1,7 @@
 <!-- Include pour avoir le header et evité de devoir changer les liens partout -->
-<?php include('../header.php') ?>
+<?php include('../header.php');
+$editor = 'Delcourt'; ?>
+
 
 <div class="container p-0">
     <div class="row">
@@ -22,7 +24,7 @@
 
 <div class="container p-0">
     <div class="row">
-    
+        <?php include('../../controllers/cardMangaEditorController.php') ?>
     </div>
 </div>
 
