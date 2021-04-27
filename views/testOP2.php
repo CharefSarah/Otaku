@@ -9,7 +9,8 @@ try {
         // On ecrit chaque truc qu'on veut depuis le fetch
         foreach ($covers as $covers) {
 ?>
-            <img style="width : 26%;margin : 5px;" src="<?= $covers['cover'] ?>">
+
+            <img style="width : 26%;margin : 10px;" src="<?= $covers['cover'] ?>">
 
 <?php
         }
