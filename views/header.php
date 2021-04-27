@@ -4,7 +4,6 @@ session_start();
 $index = false;
 // Require du controller, le Require du model est dedans.
 
-require '../../controllers/dropdownNavbarController.php';
 
 ?>
 
@@ -39,14 +38,8 @@ require '../../controllers/dropdownNavbarController.php';
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <?php
-                            // $editor est declaré dans le controller, 
-                            // ca renvoi un tableau avec les colonnes de la DB en index, ex : $editor['link']
-                            if ($editor) {
-                                foreach ($editor as $editor) {
+                            include('../controllers/dropdownNavbarController.php');
                             ?>
-                                    <li><a class="dropdown-item" href="<?php echo '/views/editors/' . $editor['link'] ?>"> <img class="iconNavBar" src="<?= '../' . $editor['photo'] ?>"> <?= $editor['Name'] ?> </a></li>
-                            <?php }
-                            } ?>
                         </ul>
                     </li>
                     </ul>

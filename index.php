@@ -3,7 +3,6 @@ session_start();
 // Variable $index pour determiner si on est dans l'index ou dans le header des autres views et pour adapté les liens en fonctions.
 $index = true;
 // Require du controller, le Require du model est dedans.
-require 'controllers/dropdownNavbarController.php';
 ?>
 
 <!DOCTYPE html>
@@ -37,15 +36,9 @@ require 'controllers/dropdownNavbarController.php';
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <?php
-                            // $editor est declaré dans le controller, 
-                            // ca renvoi un tableau avec les colonnes de la DB en index, ex : $editor['link']
-                            if ($editor) {
-                                foreach ($editor as $editor) {
+                            require 'controllers/dropdownNavbarController.php';
                             ?>
-                                    <!-- Le lien avec l'image de l'editeur -->
-                                    <li><a class="dropdown-item" href="<?php echo '/views/editors/' . $editor['link'] ?>"> <img class="iconNavBar" src="<?= $editor['photo'] ?>"> <?= $editor['Name'] ?> </a></li>
-                            <?php }
-                            } ?>
+
                         </ul>
                     </li>
                     </ul>

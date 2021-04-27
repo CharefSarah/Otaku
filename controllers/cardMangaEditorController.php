@@ -1,7 +1,8 @@
 <?php
 
 try {
-    $queryMangaForeachEditor = 'SELECT manga.ID as mangaID, manga.Name AS manganame, manga.Author, manga.releaseDate, manga.Synopsis, manga.photo AS mangaphoto, editor.Name, editor.link from manga LEFT JOIN editor ON ID_Editor = editor.ID WHERE editor.Name =\'' . $editor . '\'';
+
+    $queryMangaForeachEditor = 'SELECT manga.ID as mangaID, manga.Name AS manganame, manga.Author, manga.releaseDate, manga.Synopsis, manga.photo AS mangaphoto, editor.Name, editor.link from manga LEFT JOIN editor ON ID_Editor = editor.ID WHERE editor.ID =' . $idToFetch;
     $getMangas = $pdo->query($queryMangaForeachEditor);
     $mangas = $getMangas->fetchAll(PDO::FETCH_ASSOC);
     // On verifie si le fetch nous renvoi quelque chose

@@ -1,4 +1,4 @@
-<?php include('../header.php');
+<?php include('header.php');
 
 /* ---------------- Ces trois lignes la servent a lire l'URL ---------------- */
 $url = "http://";
@@ -23,6 +23,7 @@ $mangaInfo = $getMangaInfoPDO->fetch();
 <p style="color:white"><?= $mangaInfo['Synopsis'] ?></p>
 
 <?php
+
 try {
     $getvolume = 'SELECT * FROM volume WHERE ID_Manga=' . $idToFetch;
     $getvolumePDO = $pdo->query($getvolume);
@@ -41,4 +42,4 @@ try {
 }
 
 
-include('../footer.php'); ?>
+include('footer.php'); ?>
