@@ -1,10 +1,13 @@
 <?php
+session_start();
 // Variable $index pour determiner si on est dans l'index ou dans le header des autres views et pour adapté les liens en fonctions.
 $index = false;
 // Require du controller, le Require du model est dedans.
 
 require '../../controllers/dropdownNavbarController.php';
+
 ?>
+
 <!DOCTYPE html>
 
 <html>
