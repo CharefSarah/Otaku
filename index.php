@@ -28,7 +28,7 @@ $index = true;
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link" href="#">Nouveautés</a>
+                    <a class="nav-link" href="/views/newRelease.php">Nouveautés</a>
                     <a class="nav-link" href="#">Mangathèque</a>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
