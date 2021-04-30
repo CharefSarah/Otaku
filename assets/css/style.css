@@ -1,11 +1,22 @@
 html,
 body {
-    padding: 0px;
-    margin: 0px;
+    padding: 0px !important;
+    margin: 0px !important;
+    width: 100vw !important;
+    background-color: #222222bd !important;
+    font-family: MR !important;
     overflow-x: hidden !important;
-    width: 100vw;
-    background-color: #212529 !important;
+    
 }
+@font-face {
+    font-family: MR;
+    src: url("../font/MR.ttf") format("TrueType");
+}
+@font-face {
+    font-family: Manrope-Bold;
+    src: url("../font/Manrope-Bold.ttf") format("TrueType");
+}
+
 
 .cover {
     background-image: url("../img/cover.png") !important;
@@ -39,15 +50,114 @@ body {
 
 /* ------- Style des card pour les manga dans les pages des editeurs. ------- */
 /* -------- C'est pour testé faut le virer et le changer toute facon -------- */
-.cardMangaEditor {
-    width: auto;
-    height : 150px;
-    margin : 6px;
-}
-.cardMangaEditorTitle {
-    font-size:14px;
+
+
+
+.footer0, .footer2, .footer3, .footer4{
+    background: #131313 !important;
 }
 
-.cardMangaEditorText  {
-    font-size : 8px;
+*{
+    font-family: 'Poppins', sans-serif;
+     -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
 }
+img {
+      -webkit-user-drag: none;
+      -moz-user-drag: none;
+      -o-user-drag: none;
+      user-drag: none;
+}
+img {
+    pointer-events: none;
+}
+.movie_card{
+    padding: 0 !important;
+    width: 19rem;
+    border-radius: 10px;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px !important;
+    margin-left: 38px !important;
+    background:rgba(12, 12, 12, 0.774) !important;
+
+}
+.movie_card img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 24rem !important;
+}
+.movie_info{
+    color: #ffffff;
+    margin: 5px;
+}
+
+.movie_info i{
+    font-size: 20px;
+}
+.card-title{
+    width: 80%;
+    height: 4rem;
+}
+
+
+a:link 
+{ 
+ text-decoration:none; 
+ color: aliceblue !important;
+} 
+a{
+    color: aliceblue;
+}
+.ribbon {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: absolute;
+  }
+  .ribbon::before,
+  .ribbon::after {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    display: block;
+    border: 5px solid #033353;
+  }
+  .ribbon span {
+    position: absolute;
+    display: block;
+    width: 225px;
+    padding: 15px 0;
+    background-color: #053555;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    color: #fff;
+    font: 700 18px/1 'Lato', sans-serif;
+    text-shadow: 0 1px 1px rgba(0,0,0,.2);
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .ribbon-top-left {
+    top: -10px;
+    left: -10px;
+  }
+  .ribbon-top-left::before,
+  .ribbon-top-left::after {
+    border-top-color: transparent;
+    border-left-color: transparent;
+  }
+  .ribbon-top-left::before {
+    top: 0;
+    right: 0;
+  }
+  .ribbon-top-left::after {
+    bottom: 0;
+    left: 0;
+  }
+  .ribbon-top-left span {
+    right: -25px;
+    top: 30px;
+    transform: rotate(-45deg);
+  }
+  
